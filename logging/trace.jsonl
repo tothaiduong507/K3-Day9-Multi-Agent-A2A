@@ -1,0 +1,650 @@
+{"timestamp": "2026-08-05T03:24:59.332219+00:00", "case_id": "EC_001", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "e2a03ccf5ea816036608b2d8c3ab8e60"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.332219+00:00", "case_id": "EC_001", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.332219+00:00", "case_id": "EC_001", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.332219+00:00", "case_id": "EC_001", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.332219+00:00", "case_id": "EC_001", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.332219+00:00", "case_id": "EC_001", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.332219+00:00", "case_id": "EC_001", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.332219+00:00", "case_id": "EC_001", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.332219+00:00", "case_id": "EC_001", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.332219+00:00", "case_id": "EC_001", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.332219+00:00", "case_id": "EC_001", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.332219+00:00", "case_id": "EC_001", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_001.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.332219+00:00", "case_id": "EC_001", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.343779+00:00", "case_id": "EC_002", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "8067c5e4834f3c0a3c8a4e921d65c5b1"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.343779+00:00", "case_id": "EC_002", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.343779+00:00", "case_id": "EC_002", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.343779+00:00", "case_id": "EC_002", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.343779+00:00", "case_id": "EC_002", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.343779+00:00", "case_id": "EC_002", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.343779+00:00", "case_id": "EC_002", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.343779+00:00", "case_id": "EC_002", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.343779+00:00", "case_id": "EC_002", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.343779+00:00", "case_id": "EC_002", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.348253+00:00", "case_id": "EC_002", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.348253+00:00", "case_id": "EC_002", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_002.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.348253+00:00", "case_id": "EC_002", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.348253+00:00", "case_id": "EC_003", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "71303d7e93b399f5bcd537d124c0bcfa"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.348253+00:00", "case_id": "EC_003", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.348253+00:00", "case_id": "EC_003", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.348253+00:00", "case_id": "EC_003", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.348253+00:00", "case_id": "EC_003", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.348253+00:00", "case_id": "EC_003", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.348253+00:00", "case_id": "EC_003", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.348253+00:00", "case_id": "EC_003", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.355373+00:00", "case_id": "EC_003", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.355373+00:00", "case_id": "EC_003", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.355373+00:00", "case_id": "EC_003", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.355373+00:00", "case_id": "EC_003", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_003.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.355373+00:00", "case_id": "EC_003", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.355373+00:00", "case_id": "EC_004", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "fd28a6dfe413804d0b89b7c9abf5b1f3"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.359690+00:00", "case_id": "EC_004", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.359690+00:00", "case_id": "EC_004", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.359690+00:00", "case_id": "EC_004", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.359690+00:00", "case_id": "EC_004", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.361705+00:00", "case_id": "EC_004", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.361705+00:00", "case_id": "EC_004", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.361705+00:00", "case_id": "EC_004", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.362836+00:00", "case_id": "EC_004", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.362836+00:00", "case_id": "EC_004", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.362836+00:00", "case_id": "EC_004", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.364968+00:00", "case_id": "EC_004", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_004.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.364968+00:00", "case_id": "EC_004", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.364968+00:00", "case_id": "EC_005", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "9a31fd9d697e9670777501f720773fd9"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.364968+00:00", "case_id": "EC_005", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.364968+00:00", "case_id": "EC_005", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.369029+00:00", "case_id": "EC_005", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.369029+00:00", "case_id": "EC_005", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.369029+00:00", "case_id": "EC_005", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.369029+00:00", "case_id": "EC_005", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.369029+00:00", "case_id": "EC_005", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.371040+00:00", "case_id": "EC_005", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.371040+00:00", "case_id": "EC_005", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.371040+00:00", "case_id": "EC_005", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.373049+00:00", "case_id": "EC_005", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_005.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.373049+00:00", "case_id": "EC_005", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.373049+00:00", "case_id": "EC_006", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "fe51b7fac3bea42115fa1c3b8973cba7"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.373049+00:00", "case_id": "EC_006", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.375526+00:00", "case_id": "EC_006", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.375526+00:00", "case_id": "EC_006", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.375526+00:00", "case_id": "EC_006", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.375526+00:00", "case_id": "EC_006", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.375526+00:00", "case_id": "EC_006", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.375526+00:00", "case_id": "EC_006", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.375526+00:00", "case_id": "EC_006", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.375526+00:00", "case_id": "EC_006", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.375526+00:00", "case_id": "EC_006", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.375526+00:00", "case_id": "EC_006", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_006.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.375526+00:00", "case_id": "EC_006", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.381590+00:00", "case_id": "EC_007", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "ded456690bcb2ffd4def86541479037f"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.381590+00:00", "case_id": "EC_007", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.381590+00:00", "case_id": "EC_007", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.383673+00:00", "case_id": "EC_007", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.383673+00:00", "case_id": "EC_007", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.383673+00:00", "case_id": "EC_007", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.383673+00:00", "case_id": "EC_007", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.385683+00:00", "case_id": "EC_007", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.385683+00:00", "case_id": "EC_007", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.385683+00:00", "case_id": "EC_007", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.385683+00:00", "case_id": "EC_007", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.385683+00:00", "case_id": "EC_007", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_007.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.385683+00:00", "case_id": "EC_007", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.385683+00:00", "case_id": "EC_008", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "2c0032906c603dcc21cd954828fa77d0"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.385683+00:00", "case_id": "EC_008", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.385683+00:00", "case_id": "EC_008", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.385683+00:00", "case_id": "EC_008", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.391545+00:00", "case_id": "EC_008", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.391545+00:00", "case_id": "EC_008", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.391545+00:00", "case_id": "EC_008", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.391545+00:00", "case_id": "EC_008", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.391545+00:00", "case_id": "EC_008", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.391545+00:00", "case_id": "EC_008", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.391545+00:00", "case_id": "EC_008", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.391545+00:00", "case_id": "EC_008", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_008.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.391545+00:00", "case_id": "EC_008", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.391545+00:00", "case_id": "EC_009", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "3aaee056441dcae251f360b1c71a7279"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.391545+00:00", "case_id": "EC_009", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.391545+00:00", "case_id": "EC_009", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.391545+00:00", "case_id": "EC_009", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.399719+00:00", "case_id": "EC_009", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.399719+00:00", "case_id": "EC_009", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.399719+00:00", "case_id": "EC_009", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.399719+00:00", "case_id": "EC_009", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.399719+00:00", "case_id": "EC_009", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.401728+00:00", "case_id": "EC_009", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.401728+00:00", "case_id": "EC_009", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.401728+00:00", "case_id": "EC_009", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_009.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.401728+00:00", "case_id": "EC_009", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.401728+00:00", "case_id": "EC_010", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "3a119f52de09d1b2700815732def8b47"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.401728+00:00", "case_id": "EC_010", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.401728+00:00", "case_id": "EC_010", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.401728+00:00", "case_id": "EC_010", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.401728+00:00", "case_id": "EC_010", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.407200+00:00", "case_id": "EC_010", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.407200+00:00", "case_id": "EC_010", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.407200+00:00", "case_id": "EC_010", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.408428+00:00", "case_id": "EC_010", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.408967+00:00", "case_id": "EC_010", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.408967+00:00", "case_id": "EC_010", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.408967+00:00", "case_id": "EC_010", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_010.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.408967+00:00", "case_id": "EC_010", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.408967+00:00", "case_id": "EC_011", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "2636a02ee7de9590df86a4c24b739c49"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.408967+00:00", "case_id": "EC_011", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.408967+00:00", "case_id": "EC_011", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.408967+00:00", "case_id": "EC_011", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.408967+00:00", "case_id": "EC_011", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.408967+00:00", "case_id": "EC_011", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.408967+00:00", "case_id": "EC_011", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.408967+00:00", "case_id": "EC_011", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.415351+00:00", "case_id": "EC_011", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.416001+00:00", "case_id": "EC_011", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.416001+00:00", "case_id": "EC_011", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.418020+00:00", "case_id": "EC_011", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_011.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.418020+00:00", "case_id": "EC_011", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.418020+00:00", "case_id": "EC_012", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "103de323ece563a1012b4b6adf5a81b2"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.418020+00:00", "case_id": "EC_012", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.418020+00:00", "case_id": "EC_012", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.421578+00:00", "case_id": "EC_012", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.421578+00:00", "case_id": "EC_012", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.421578+00:00", "case_id": "EC_012", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.421578+00:00", "case_id": "EC_012", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.421578+00:00", "case_id": "EC_012", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.423587+00:00", "case_id": "EC_012", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.423587+00:00", "case_id": "EC_012", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.423587+00:00", "case_id": "EC_012", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.425596+00:00", "case_id": "EC_012", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_012.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.425596+00:00", "case_id": "EC_012", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.425596+00:00", "case_id": "EC_013", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "ee234bfd26ca588915483995d811c1d0"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.425596+00:00", "case_id": "EC_013", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.425596+00:00", "case_id": "EC_013", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.425596+00:00", "case_id": "EC_013", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.425596+00:00", "case_id": "EC_013", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.428965+00:00", "case_id": "EC_013", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.428965+00:00", "case_id": "EC_013", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.428965+00:00", "case_id": "EC_013", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.428965+00:00", "case_id": "EC_013", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.428965+00:00", "case_id": "EC_013", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.428965+00:00", "case_id": "EC_013", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.432806+00:00", "case_id": "EC_013", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_013.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.432806+00:00", "case_id": "EC_013", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.432806+00:00", "case_id": "EC_014", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "b93b079468bdf6a20fd54cf45d1e03b6"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.432806+00:00", "case_id": "EC_014", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.432806+00:00", "case_id": "EC_014", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.432806+00:00", "case_id": "EC_014", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.432806+00:00", "case_id": "EC_014", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.432806+00:00", "case_id": "EC_014", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.438078+00:00", "case_id": "EC_014", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.438078+00:00", "case_id": "EC_014", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.438078+00:00", "case_id": "EC_014", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.438078+00:00", "case_id": "EC_014", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.438078+00:00", "case_id": "EC_014", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.440088+00:00", "case_id": "EC_014", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_014.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.440088+00:00", "case_id": "EC_014", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.440088+00:00", "case_id": "EC_015", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "c504f1f5fd54cc8398d57dc0da49de01"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.440088+00:00", "case_id": "EC_015", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.440088+00:00", "case_id": "EC_015", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.440088+00:00", "case_id": "EC_015", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.440088+00:00", "case_id": "EC_015", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.440088+00:00", "case_id": "EC_015", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.440088+00:00", "case_id": "EC_015", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.440088+00:00", "case_id": "EC_015", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.440088+00:00", "case_id": "EC_015", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.446682+00:00", "case_id": "EC_015", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.446682+00:00", "case_id": "EC_015", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.452615+00:00", "case_id": "EC_015", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_015.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.452615+00:00", "case_id": "EC_015", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.452615+00:00", "case_id": "EC_016", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "a88edef387e2a7e457695664bf0ddfc0"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.454627+00:00", "case_id": "EC_016", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.454627+00:00", "case_id": "EC_016", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.454627+00:00", "case_id": "EC_016", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.454627+00:00", "case_id": "EC_016", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.454627+00:00", "case_id": "EC_016", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.456636+00:00", "case_id": "EC_016", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.456636+00:00", "case_id": "EC_016", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.458644+00:00", "case_id": "EC_016", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.458644+00:00", "case_id": "EC_016", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.458644+00:00", "case_id": "EC_016", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.458644+00:00", "case_id": "EC_016", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_016.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.458644+00:00", "case_id": "EC_016", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.458644+00:00", "case_id": "EC_017", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "dd6ee4d96f0f3cf1432c3b82818e0387"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.462970+00:00", "case_id": "EC_017", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.462970+00:00", "case_id": "EC_017", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.462970+00:00", "case_id": "EC_017", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.462970+00:00", "case_id": "EC_017", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.464565+00:00", "case_id": "EC_017", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.465457+00:00", "case_id": "EC_017", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.466058+00:00", "case_id": "EC_017", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.466058+00:00", "case_id": "EC_017", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.466058+00:00", "case_id": "EC_017", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.466058+00:00", "case_id": "EC_017", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.468068+00:00", "case_id": "EC_017", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_017.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.470078+00:00", "case_id": "EC_017", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.472158+00:00", "case_id": "EC_018", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "97c8513f2504aa8ec05534307a703dea"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.472158+00:00", "case_id": "EC_018", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.474166+00:00", "case_id": "EC_018", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.474166+00:00", "case_id": "EC_018", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.476175+00:00", "case_id": "EC_018", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.476175+00:00", "case_id": "EC_018", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.476175+00:00", "case_id": "EC_018", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.476175+00:00", "case_id": "EC_018", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.476175+00:00", "case_id": "EC_018", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.476175+00:00", "case_id": "EC_018", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.478183+00:00", "case_id": "EC_018", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.489814+00:00", "case_id": "EC_018", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_018.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.489814+00:00", "case_id": "EC_018", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.491825+00:00", "case_id": "EC_019", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "31f935babbc97f5990e0ffd128e19541"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.491825+00:00", "case_id": "EC_019", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.491825+00:00", "case_id": "EC_019", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.491825+00:00", "case_id": "EC_019", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.491825+00:00", "case_id": "EC_019", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.491825+00:00", "case_id": "EC_019", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.491825+00:00", "case_id": "EC_019", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.491825+00:00", "case_id": "EC_019", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.491825+00:00", "case_id": "EC_019", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.491825+00:00", "case_id": "EC_019", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.491825+00:00", "case_id": "EC_019", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.497598+00:00", "case_id": "EC_019", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_019.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.499610+00:00", "case_id": "EC_019", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.501622+00:00", "case_id": "EC_020", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "96087ef44ca9abdbc4c372a3dd3c859f"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.501622+00:00", "case_id": "EC_020", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.501622+00:00", "case_id": "EC_020", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.501622+00:00", "case_id": "EC_020", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.503633+00:00", "case_id": "EC_020", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.503633+00:00", "case_id": "EC_020", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.503633+00:00", "case_id": "EC_020", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.503633+00:00", "case_id": "EC_020", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.505643+00:00", "case_id": "EC_020", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.505643+00:00", "case_id": "EC_020", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.505643+00:00", "case_id": "EC_020", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.505643+00:00", "case_id": "EC_020", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_020.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.505643+00:00", "case_id": "EC_020", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.505643+00:00", "case_id": "EC_021", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "13d341318c77969f10d77e1382957542"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.505643+00:00", "case_id": "EC_021", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.505643+00:00", "case_id": "EC_021", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.505643+00:00", "case_id": "EC_021", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.505643+00:00", "case_id": "EC_021", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.505643+00:00", "case_id": "EC_021", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.513458+00:00", "case_id": "EC_021", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.513458+00:00", "case_id": "EC_021", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.514334+00:00", "case_id": "EC_021", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.515233+00:00", "case_id": "EC_021", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.515233+00:00", "case_id": "EC_021", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.516697+00:00", "case_id": "EC_021", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_021.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.516697+00:00", "case_id": "EC_021", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.516697+00:00", "case_id": "EC_022", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "1f7565efbb90c33b80f467d6a75332c5"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.516697+00:00", "case_id": "EC_022", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.516697+00:00", "case_id": "EC_022", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.516697+00:00", "case_id": "EC_022", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.522011+00:00", "case_id": "EC_022", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.522011+00:00", "case_id": "EC_022", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.522011+00:00", "case_id": "EC_022", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.522011+00:00", "case_id": "EC_022", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.524059+00:00", "case_id": "EC_022", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.524505+00:00", "case_id": "EC_022", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.524505+00:00", "case_id": "EC_022", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.526556+00:00", "case_id": "EC_022", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_022.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.527465+00:00", "case_id": "EC_022", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.527465+00:00", "case_id": "EC_023", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "5fba7c57daf631028d2a584c52799e24"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.527465+00:00", "case_id": "EC_023", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.529475+00:00", "case_id": "EC_023", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.529475+00:00", "case_id": "EC_023", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.529475+00:00", "case_id": "EC_023", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.529475+00:00", "case_id": "EC_023", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.531678+00:00", "case_id": "EC_023", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.532609+00:00", "case_id": "EC_023", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.532609+00:00", "case_id": "EC_023", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.532609+00:00", "case_id": "EC_023", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.532609+00:00", "case_id": "EC_023", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.532609+00:00", "case_id": "EC_023", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_023.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.540367+00:00", "case_id": "EC_023", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.540819+00:00", "case_id": "EC_024", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "d8716a985f69a46751cc046b0fea0d98"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.540819+00:00", "case_id": "EC_024", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.540819+00:00", "case_id": "EC_024", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.540819+00:00", "case_id": "EC_024", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.543403+00:00", "case_id": "EC_024", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.543403+00:00", "case_id": "EC_024", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.543403+00:00", "case_id": "EC_024", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.543403+00:00", "case_id": "EC_024", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.543403+00:00", "case_id": "EC_024", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.543403+00:00", "case_id": "EC_024", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.543403+00:00", "case_id": "EC_024", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_024", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_024.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_024", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_025", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "e06ff711ddcab05c3651a9b1bb003950"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_025", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_025", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_025", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_025", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_025", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_025", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_025", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_025", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_025", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_025", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_025", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_025.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_025", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_026", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "966f96af9d189dc428ff04ebbca821b8"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_026", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_026", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_026", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.551226+00:00", "case_id": "EC_026", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.563930+00:00", "case_id": "EC_026", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.564437+00:00", "case_id": "EC_026", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.564437+00:00", "case_id": "EC_026", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.564437+00:00", "case_id": "EC_026", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.566516+00:00", "case_id": "EC_026", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.566516+00:00", "case_id": "EC_026", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.568528+00:00", "case_id": "EC_026", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_026.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.568528+00:00", "case_id": "EC_026", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_027", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "2f346d92b11fcc7c342b3392b174cf3b"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_027", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_027", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_027", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_027", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_027", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_027", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_027", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_027", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_027", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_027", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_027", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_027.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_027", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_028", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "80f0181edc2f4a5bd3384a3c39a83cee"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_028", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_028", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.570537+00:00", "case_id": "EC_028", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.579641+00:00", "case_id": "EC_028", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.579641+00:00", "case_id": "EC_028", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.579641+00:00", "case_id": "EC_028", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.581956+00:00", "case_id": "EC_028", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.581956+00:00", "case_id": "EC_028", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.581956+00:00", "case_id": "EC_028", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.583965+00:00", "case_id": "EC_028", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.583965+00:00", "case_id": "EC_028", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_028.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.583965+00:00", "case_id": "EC_028", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.583965+00:00", "case_id": "EC_029", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "5c932e0a181410b67c77daaed30991af"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.583965+00:00", "case_id": "EC_029", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.583965+00:00", "case_id": "EC_029", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.583965+00:00", "case_id": "EC_029", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.583965+00:00", "case_id": "EC_029", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.589945+00:00", "case_id": "EC_029", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.589945+00:00", "case_id": "EC_029", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.589945+00:00", "case_id": "EC_029", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.589945+00:00", "case_id": "EC_029", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.589945+00:00", "case_id": "EC_029", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.591955+00:00", "case_id": "EC_029", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.591955+00:00", "case_id": "EC_029", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_029.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.591955+00:00", "case_id": "EC_029", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.591955+00:00", "case_id": "EC_030", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "405be8487a7fde1db0bc31ad6b08050a"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.591955+00:00", "case_id": "EC_030", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.595282+00:00", "case_id": "EC_030", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.595282+00:00", "case_id": "EC_030", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.595282+00:00", "case_id": "EC_030", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.595282+00:00", "case_id": "EC_030", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.595282+00:00", "case_id": "EC_030", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.595282+00:00", "case_id": "EC_030", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.595282+00:00", "case_id": "EC_030", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.595282+00:00", "case_id": "EC_030", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.595282+00:00", "case_id": "EC_030", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_030", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_030.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_030", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_031", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "4274ff4a5df607e75b32b80e2f8eda3f"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_031", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_031", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_031", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_031", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_031", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_031", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_031", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_031", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_031", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_031", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_031", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_031.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_031", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_032", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "c4dad201936ed30eef3c94fafa59ed6e"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_032", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_032", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_032", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.599946+00:00", "case_id": "EC_032", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.611115+00:00", "case_id": "EC_032", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.611115+00:00", "case_id": "EC_032", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.611115+00:00", "case_id": "EC_032", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.611115+00:00", "case_id": "EC_032", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.611115+00:00", "case_id": "EC_032", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.613476+00:00", "case_id": "EC_032", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_032", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_032.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_032", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_033", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "a5c8f3a11dcb9bd9b0acdfb8101dfdc8"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_033", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_033", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_033", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_033", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_033", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_033", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_033", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_033", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_033", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_033", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_033", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_033.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_033", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_034", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "973acef56bf70feefa8264d4e9f300fc"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_034", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_034", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.615485+00:00", "case_id": "EC_034", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.627132+00:00", "case_id": "EC_034", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.627132+00:00", "case_id": "EC_034", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.627132+00:00", "case_id": "EC_034", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.628541+00:00", "case_id": "EC_034", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.628541+00:00", "case_id": "EC_034", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.628541+00:00", "case_id": "EC_034", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.628541+00:00", "case_id": "EC_034", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_034", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_034.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_034", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_035", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "2478ddd1d1395639b71cf0d498d8dbf6"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_035", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_035", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_035", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_035", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_035", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_035", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_035", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_035", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_035", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_035", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_035", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_035.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_035", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_036", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "c609f82bcf7a90292a5940205ebd7e93"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.634033+00:00", "case_id": "EC_036", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.642910+00:00", "case_id": "EC_036", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.642910+00:00", "case_id": "EC_036", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.642910+00:00", "case_id": "EC_036", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.642910+00:00", "case_id": "EC_036", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.642910+00:00", "case_id": "EC_036", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.642910+00:00", "case_id": "EC_036", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.642910+00:00", "case_id": "EC_036", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.642910+00:00", "case_id": "EC_036", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.642910+00:00", "case_id": "EC_036", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.642910+00:00", "case_id": "EC_036", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_036.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.642910+00:00", "case_id": "EC_036", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.648844+00:00", "case_id": "EC_037", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "b90e46cdc30adec2f0fa041984341170"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.649428+00:00", "case_id": "EC_037", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.649428+00:00", "case_id": "EC_037", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.649428+00:00", "case_id": "EC_037", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.649428+00:00", "case_id": "EC_037", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.649428+00:00", "case_id": "EC_037", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.649428+00:00", "case_id": "EC_037", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.649428+00:00", "case_id": "EC_037", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.649428+00:00", "case_id": "EC_037", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.649428+00:00", "case_id": "EC_037", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.649428+00:00", "case_id": "EC_037", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.649428+00:00", "case_id": "EC_037", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_037.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.658546+00:00", "case_id": "EC_037", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.658546+00:00", "case_id": "EC_038", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "6b27933c6a46e3d66203137ad1fdb678"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.658546+00:00", "case_id": "EC_038", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.658546+00:00", "case_id": "EC_038", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.658546+00:00", "case_id": "EC_038", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.658546+00:00", "case_id": "EC_038", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.658546+00:00", "case_id": "EC_038", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.658546+00:00", "case_id": "EC_038", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.658546+00:00", "case_id": "EC_038", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.658546+00:00", "case_id": "EC_038", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.658546+00:00", "case_id": "EC_038", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.658546+00:00", "case_id": "EC_038", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.670231+00:00", "case_id": "EC_038", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_038.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.671340+00:00", "case_id": "EC_038", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.671340+00:00", "case_id": "EC_039", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "44a03ff139461361ec4cce7949663c2f"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.671340+00:00", "case_id": "EC_039", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.671340+00:00", "case_id": "EC_039", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.671340+00:00", "case_id": "EC_039", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.673801+00:00", "case_id": "EC_039", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.673801+00:00", "case_id": "EC_039", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.673801+00:00", "case_id": "EC_039", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.673801+00:00", "case_id": "EC_039", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.675311+00:00", "case_id": "EC_039", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.675311+00:00", "case_id": "EC_039", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.675311+00:00", "case_id": "EC_039", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.675311+00:00", "case_id": "EC_039", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_039.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.675311+00:00", "case_id": "EC_039", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.675311+00:00", "case_id": "EC_040", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "11bc240af3d9e1f77218715480a65b77"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.675311+00:00", "case_id": "EC_040", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.675311+00:00", "case_id": "EC_040", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.675311+00:00", "case_id": "EC_040", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.675311+00:00", "case_id": "EC_040", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.682987+00:00", "case_id": "EC_040", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.683954+00:00", "case_id": "EC_040", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.683954+00:00", "case_id": "EC_040", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_040", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_040", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_040", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_040", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_040.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_040", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_041", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "64a8b3b4c19751b51d211deb32fdc67b"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_041", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_041", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_041", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_041", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_041", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_041", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_041", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_041", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_041", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_041", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.685402+00:00", "case_id": "EC_041", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_041.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.698463+00:00", "case_id": "EC_041", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.699120+00:00", "case_id": "EC_042", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "8a5fc33c79bf3f4d9bbcc3dceb6b67c4"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.699120+00:00", "case_id": "EC_042", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.699120+00:00", "case_id": "EC_042", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.699120+00:00", "case_id": "EC_042", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.701364+00:00", "case_id": "EC_042", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.701364+00:00", "case_id": "EC_042", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.701364+00:00", "case_id": "EC_042", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.701364+00:00", "case_id": "EC_042", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.701364+00:00", "case_id": "EC_042", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.703373+00:00", "case_id": "EC_042", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.703373+00:00", "case_id": "EC_042", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.705383+00:00", "case_id": "EC_042", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_042.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.705383+00:00", "case_id": "EC_042", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.705383+00:00", "case_id": "EC_043", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "3ef6bcdda6193f8657168ba7e8b3e948"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.705383+00:00", "case_id": "EC_043", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.707389+00:00", "case_id": "EC_043", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.707389+00:00", "case_id": "EC_043", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.707389+00:00", "case_id": "EC_043", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.707389+00:00", "case_id": "EC_043", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.707389+00:00", "case_id": "EC_043", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.709394+00:00", "case_id": "EC_043", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.709394+00:00", "case_id": "EC_043", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.709394+00:00", "case_id": "EC_043", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.709394+00:00", "case_id": "EC_043", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.709394+00:00", "case_id": "EC_043", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_043.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.709394+00:00", "case_id": "EC_043", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.709394+00:00", "case_id": "EC_044", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "d671370d11048a2dab56335d3d91823e"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.709394+00:00", "case_id": "EC_044", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.714099+00:00", "case_id": "EC_044", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.715124+00:00", "case_id": "EC_044", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.715124+00:00", "case_id": "EC_044", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.715124+00:00", "case_id": "EC_044", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.717895+00:00", "case_id": "EC_044", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.717895+00:00", "case_id": "EC_044", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.718680+00:00", "case_id": "EC_044", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.719260+00:00", "case_id": "EC_044", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.719260+00:00", "case_id": "EC_044", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.722448+00:00", "case_id": "EC_044", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_044.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.723050+00:00", "case_id": "EC_044", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.723050+00:00", "case_id": "EC_045", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "d67b79fea59821fda4d363d337a56c3a"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.723792+00:00", "case_id": "EC_045", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.723792+00:00", "case_id": "EC_045", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.723792+00:00", "case_id": "EC_045", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.723792+00:00", "case_id": "EC_045", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.723792+00:00", "case_id": "EC_045", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.723792+00:00", "case_id": "EC_045", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.723792+00:00", "case_id": "EC_045", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.726764+00:00", "case_id": "EC_045", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.726764+00:00", "case_id": "EC_045", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.726764+00:00", "case_id": "EC_045", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.726764+00:00", "case_id": "EC_045", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_045.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.726764+00:00", "case_id": "EC_045", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.726764+00:00", "case_id": "EC_046", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "2208f3a59d7067fe62c900692f5fdcaf"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.732255+00:00", "case_id": "EC_046", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.733135+00:00", "case_id": "EC_046", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.733135+00:00", "case_id": "EC_046", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.733135+00:00", "case_id": "EC_046", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.733135+00:00", "case_id": "EC_046", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.733135+00:00", "case_id": "EC_046", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.733135+00:00", "case_id": "EC_046", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.733135+00:00", "case_id": "EC_046", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.733135+00:00", "case_id": "EC_046", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.733135+00:00", "case_id": "EC_046", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.740727+00:00", "case_id": "EC_046", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_046.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.741693+00:00", "case_id": "EC_046", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.741693+00:00", "case_id": "EC_047", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "b04477ada8d2ad7fa9d95358baaa785d"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.741693+00:00", "case_id": "EC_047", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.741693+00:00", "case_id": "EC_047", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.741693+00:00", "case_id": "EC_047", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.741693+00:00", "case_id": "EC_047", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.744762+00:00", "case_id": "EC_047", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.744762+00:00", "case_id": "EC_047", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.744762+00:00", "case_id": "EC_047", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.744762+00:00", "case_id": "EC_047", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.744762+00:00", "case_id": "EC_047", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.744762+00:00", "case_id": "EC_047", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.749378+00:00", "case_id": "EC_047", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_047.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.751387+00:00", "case_id": "EC_047", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.751387+00:00", "case_id": "EC_048", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "adc253f1977c81c2c29dc7b9dd23d538"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.754062+00:00", "case_id": "EC_048", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.754062+00:00", "case_id": "EC_048", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.754062+00:00", "case_id": "EC_048", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.756568+00:00", "case_id": "EC_048", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.756568+00:00", "case_id": "EC_048", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.756568+00:00", "case_id": "EC_048", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.756568+00:00", "case_id": "EC_048", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.756568+00:00", "case_id": "EC_048", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.756568+00:00", "case_id": "EC_048", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.756568+00:00", "case_id": "EC_048", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.764619+00:00", "case_id": "EC_048", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_048.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.766663+00:00", "case_id": "EC_048", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.767541+00:00", "case_id": "EC_049", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "5b9e9502eca103a28ea22a94c65e3950"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.767541+00:00", "case_id": "EC_049", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.767541+00:00", "case_id": "EC_049", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.769003+00:00", "case_id": "EC_049", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.769340+00:00", "case_id": "EC_049", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.769340+00:00", "case_id": "EC_049", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.769340+00:00", "case_id": "EC_049", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.769340+00:00", "case_id": "EC_049", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.771886+00:00", "case_id": "EC_049", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.771886+00:00", "case_id": "EC_049", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.771886+00:00", "case_id": "EC_049", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.773896+00:00", "case_id": "EC_049", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_049.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.773896+00:00", "case_id": "EC_049", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.773896+00:00", "case_id": "EC_050", "agent": "coordinator", "event": "case_started", "status": "success", "details": {"order_id": "af0bbb47f125381ce9f3597dc70ef07b"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.773896+00:00", "case_id": "EC_050", "agent": "order_seller_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.773896+00:00", "case_id": "EC_050", "agent": "order_seller_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "delivery_agent"}
+{"timestamp": "2026-08-05T03:24:59.773896+00:00", "case_id": "EC_050", "agent": "payment_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.776776+00:00", "case_id": "EC_050", "agent": "payment_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.776776+00:00", "case_id": "EC_050", "agent": "delivery_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.776776+00:00", "case_id": "EC_050", "agent": "delivery_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "policy_agent"}
+{"timestamp": "2026-08-05T03:24:59.776776+00:00", "case_id": "EC_050", "agent": "policy_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.776776+00:00", "case_id": "EC_050", "agent": "policy_agent", "event": "analysis_completed", "status": "success", "details": {}, "handoff_to": "verifier_agent"}
+{"timestamp": "2026-08-05T03:24:59.776776+00:00", "case_id": "EC_050", "agent": "verifier_agent", "event": "agent_started", "status": "success", "details": {}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.776776+00:00", "case_id": "EC_050", "agent": "verifier_agent", "event": "verification_passed", "status": "success", "details": {}, "handoff_to": "coordinator"}
+{"timestamp": "2026-08-05T03:24:59.781816+00:00", "case_id": "EC_050", "agent": "coordinator", "event": "output_written", "status": "success", "details": {"path": "output\\EC_050.json"}, "handoff_to": null}
+{"timestamp": "2026-08-05T03:24:59.782568+00:00", "case_id": "EC_050", "agent": "coordinator", "event": "case_completed", "status": "success", "details": {}, "handoff_to": null}
