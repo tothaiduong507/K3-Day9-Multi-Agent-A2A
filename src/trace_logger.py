@@ -2,17 +2,21 @@
 
 import json
 from datetime import datetime, timezone
+from decimal import Decimal
 from pathlib import Path
+from threading import Lock
 from typing import Any
 
 
 class TraceLogger:
     def __init__(self, path: Path) -> None:
         self.path = path
+        self._lock = Lock()
 
     def reset(self) -> None:
-        self.path.parent.mkdir(parents=True, exist_ok=True)
-        self.path.write_text("", encoding="utf-8")
+        with self._lock:
+            self.path.parent.mkdir(parents=True, exist_ok=True)
+            self.path.write_text("", encoding="utf-8")
 
     def emit(
         self,
@@ -33,7 +37,17 @@ class TraceLogger:
             "details": details or {},
             "handoff_to": handoff_to,
         }
-        self.path.parent.mkdir(parents=True, exist_ok=True)
-        with self.path.open("a", encoding="utf-8") as stream:
-            stream.write(json.dumps(record, ensure_ascii=False) + "\n")
+        with self._lock:
+            self.path.parent.mkdir(parents=True, exist_ok=True)
+            with self.path.open("a", encoding="utf-8") as stream:
+                stream.write(
+                    json.dumps(record, ensure_ascii=False, default=self._json_default)
+                    + "\n"
+                )
+
+    @staticmethod
+    def _json_default(value: Any) -> str:
+        if isinstance(value, Decimal):
+            return str(value)
+        raise TypeError(f"Cannot serialize {type(value).__name__} in trace")
 

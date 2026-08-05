@@ -31,16 +31,58 @@ class Coordinator:
         self.trace = trace
 
     def run_case(self, case: CaseInput) -> FinalCaseOutput:
-        self.trace.emit(case_id=case.case_id, agent="coordinator", event="case_started")
-
-        order = self.order_agent.analyze(case, self.data)
-        payment = self.payment_agent.analyze(case, self.data)
-        delivery = self.delivery_agent.analyze(case, order)
-        decision = self.policy_agent.decide(case, order, payment, delivery)
-        output = self.verifier_agent.verify_and_build(
-            case, order, payment, delivery, decision
+        self.trace.emit(
+            case_id=case.case_id,
+            agent="coordinator",
+            event="case_started",
+            details={"order_id": case.claimed_order_id},
         )
+        try:
+            self._started(case, "order_seller_agent")
+            order = self.order_agent.analyze(case, self.data)
+            self._completed(case, "order_seller_agent", "delivery_agent")
 
-        self.trace.emit(case_id=case.case_id, agent="coordinator", event="case_completed")
-        return output
+            self._started(case, "payment_agent")
+            payment = self.payment_agent.analyze(case, self.data)
+            self._completed(case, "payment_agent", "policy_agent")
+
+            self._started(case, "delivery_agent")
+            delivery = self.delivery_agent.analyze(case, order)
+            self._completed(case, "delivery_agent", "policy_agent")
+
+            self._started(case, "policy_agent")
+            decision = self.policy_agent.decide(case, order, payment, delivery)
+            self._completed(case, "policy_agent", "verifier_agent")
+
+            self._started(case, "verifier_agent")
+            output = self.verifier_agent.verify_and_build(
+                case, order, payment, delivery, decision
+            )
+            self.trace.emit(
+                case_id=case.case_id,
+                agent="verifier_agent",
+                event="verification_passed",
+                handoff_to="coordinator",
+            )
+            return output
+        except Exception as exc:
+            self.trace.emit(
+                case_id=case.case_id,
+                agent="coordinator",
+                event="case_failed",
+                status="error",
+                details={"error_type": type(exc).__name__, "message": str(exc)},
+            )
+            raise
+
+    def _started(self, case: CaseInput, agent: str) -> None:
+        self.trace.emit(case_id=case.case_id, agent=agent, event="agent_started")
+
+    def _completed(self, case: CaseInput, agent: str, handoff_to: str) -> None:
+        self.trace.emit(
+            case_id=case.case_id,
+            agent=agent,
+            event="analysis_completed",
+            handoff_to=handoff_to,
+        )
 

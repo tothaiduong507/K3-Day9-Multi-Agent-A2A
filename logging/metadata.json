@@ -1,0 +1,14 @@
+{
+  "project": "K3-Day9-Multi-Agent-A2A",
+  "policy_version": "EC_POLICY_V1",
+  "framework": "custom Python dependency-injection pipeline",
+  "runtime": {
+    "language": "Python",
+    "minimum_version": "3.11"
+  },
+  "model_selection": {
+    "status": "pending_team_selection",
+    "constraint": "Each agent model must have no more than 10B parameters"
+  },
+  "integration_status": "TV1 scaffold complete; TV5 contract tested; TV2-TV4 domain agents pending"
+}
