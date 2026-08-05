@@ -131,3 +131,7 @@ class OlistDataLoader:
         if not self._loaded:
             raise DataLoaderError("OlistDataLoader.load() must be called first")
 
+
+# Compatibility name used by the TV2 feature branch.
+DataLoader = OlistDataLoader
+

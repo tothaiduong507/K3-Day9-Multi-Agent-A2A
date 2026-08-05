@@ -5,7 +5,7 @@ from pathlib import Path
 
 from src.agents.delivery import DeliveryAgent
 from src.agents.order_seller import OrderSellerAgent
-from src.agents.payment import PaymentAgent
+from src.agents.adapters import IntegratedPaymentAgent
 from src.agents.policy import PolicyAgent
 from src.agents.verifier import VerifierAgent
 from src.batch_runner import BatchRunner
@@ -35,7 +35,7 @@ def build_coordinator(data_dir: Path, trace_path: Path) -> Coordinator:
     return Coordinator(
         data=data,
         order_agent=OrderSellerAgent(),
-        payment_agent=PaymentAgent(),
+        payment_agent=IntegratedPaymentAgent(),
         delivery_agent=DeliveryAgent(),
         policy_agent=PolicyAgent(),
         verifier_agent=VerifierAgent(),

@@ -1,10 +1,7 @@
-"""TV2: Order & Seller Agent."""
+"""Coordinator-compatible export of TV2's Order & Seller Agent."""
 
-from src.data_loader import OlistDataLoader
-from src.models import CaseInput, OrderAnalysis
+from src.agents.adapters import IntegratedOrderSellerAgent as OrderSellerAgent
 
 
-class OrderSellerAgent:
-    def analyze(self, case: CaseInput, data: OlistDataLoader) -> OrderAnalysis:
-        raise NotImplementedError("TV2: implement OrderSellerAgent.analyze")
+__all__ = ["OrderSellerAgent"]
 
