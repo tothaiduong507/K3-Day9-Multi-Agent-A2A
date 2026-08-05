@@ -58,8 +58,12 @@ class VerifierAgent:
             raw_evidences.append(f"item:{order_id}:{seq}")
         for seq in payment_seqs:
             raw_evidences.append(f"payment:{order_id}:{seq}")
-        for s_id in seller_ids:
-            raw_evidences.append(f"seller:{s_id}")
+        # Seller IDs vẫn thuộc affected_entities, nhưng chỉ là evidence trực tiếp
+        # khi policy quy trách nhiệm cho seller. Ở các issue khác, seller evidence
+        # là bằng chứng có thật nhưng không liên quan và làm giảm precision.
+        if decision.responsible_party_type == "seller":
+            for s_id in seller_ids:
+                raw_evidences.append(f"seller:{s_id}")
         raw_evidences.append(f"policy:{decision.root_cause_code}")
 
         # Lọc qua Regex và cắt tối đa 10 Evidence IDs

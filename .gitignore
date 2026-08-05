@@ -11,4 +11,9 @@ build/
 *.egg-info/
 output/*.json
 logging/*.log
+demo_output/
+demo_all_output/
+demo_trace.jsonl
+demo_all_trace.jsonl
+output_step*.zip
 

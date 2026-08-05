@@ -185,8 +185,8 @@ class PaymentAgent:
                     f"Invalid payment row at index {row_index}: {exc}"
                 )
 
-        # Sắp xếp để output ổn định, không phụ thuộc thứ tự DataFrame.
-        payment_rows.sort(key=lambda row: row.payment_sequential)
+        # Giữ nguyên thứ tự xuất hiện trong CSV để bảo toàn data provenance và
+        # giúp entity/evidence tái lập ổn định từ dữ liệu nguồn.
 
         # Kiểm tra payment_sequential trùng nhau.
         sequential_values = [

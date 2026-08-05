@@ -110,7 +110,7 @@ class PolicyAgent:
         return PolicyDecision(
             primary_issue=primary_issue,
             case_status=case_status,
-            confidence=0.95,
+            confidence=Decimal("0.95"),
             root_cause_code=root_cause_code,
             responsible_party_type=responsible_party_type,
             responsible_party_id=responsible_party_id,
